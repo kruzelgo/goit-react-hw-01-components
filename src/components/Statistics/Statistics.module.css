@@ -10,8 +10,11 @@
   align-items: center;
   background-color: #ffffff;
 }
-.stat-list {
+.statList {
   list-style: none;
+  display: flex;
+  flex-direction: row;
+  padding: 0;
 }
 
 .title {
@@ -19,4 +22,13 @@
   margin: 20px 0;
   color: #9f375b;
   font-weight: bolder;
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+  padding: 10px;
+  font-size: 30px;
+  align-items: center;
 }
